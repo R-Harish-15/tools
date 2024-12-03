@@ -13,3 +13,13 @@ printf("Usage: %s <input>\n", argv[0]);
 }
 return 0;
 }
+
+
+
+./hello $(python3 -c "(print('a'*100)")
+
+gdb hello
+install gdb
+(gdb) break hello
+(gdb) run $(python3...)
+(gdb) info registers
