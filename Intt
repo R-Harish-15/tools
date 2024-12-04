@@ -12,3 +12,16 @@ if uart.any() > 0:
       led.value(0) 
       print('LED off \n') 
       uart.write(LED off \n')
+
+2- - -TX
+3- - -RX
+- GND GND
+- 5V 5V
+
+
+
+GP16 - LED - -
+VCC - - - 5V
+GND - - - GND
+GP1 - - - TX
+GP0 - - - RX
