@@ -1,0 +1,35 @@
+#include <Loftwareqrerial.h>
+
+SoftwareSerial myserial (9,10);
+
+Void setup()
+{
+&erial. begin(9600);
+
+Qerial. leegin (9600)-
+
+delay (100);
+}
+
+
+
+
+
+void loop()
+{
+delay (10000);
+Serial.println("AT+CMGF=1");
+delay (1000);
+Serial.println("AT+CMG&=\"+91 6380678280\"\r");
+delay(1000);
+ferial. println("Make It Simple ");
+delay (100);
+frerial.println((char)26);
+delay(1000)
+while (1);
+}
+
+
+
+
+
